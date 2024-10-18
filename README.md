@@ -28,4 +28,11 @@ O projeto é dividido em duas partes principais: a API backend, responsável pel
    ```bash
    git clone https://github.com/francovinicius/SGP.git
 2. Navegue até o diretório do projeto:
-```cd SGP
+   ```bash
+   cd SGP
+3. Execute o backend com Maven:
+   ```bash
+   mvn spring-boot:run
+4. Navegue até o diretório do frontend (caso esteja em um repositório separado) e execute:
+   ```bash
+   ng serve
