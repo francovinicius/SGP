@@ -33,6 +33,8 @@ O projeto é dividido em duas partes principais: a API backend, responsável pel
 3. Execute o backend com Maven:
    ```bash
    mvn spring-boot:run
+   http://localhost:8080/
 4. Navegue até o diretório do frontend (caso esteja em um repositório separado) e execute:
    ```bash
    ng serve
+   http://localhost:4200/sgp
